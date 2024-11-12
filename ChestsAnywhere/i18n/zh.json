@@ -1,21 +1,21 @@
-﻿{
+{
     /**********
-    ** Chest UI
+    ** 宝箱界面
     **********/
-    // default chest names
+    // 宝箱默认名称
     "default-name.fridge": "冰箱",
     "default-name.other": "{{name}} #{{number}}",
     "default-name.shipping-bin.store": "出货",
     "default-name.shipping-bin.take": "收货",
 
-    // default category names
+    // 默认类别名称
     "default-category.owned-cabin": "小屋({{owner}})",
     "default-category.unowned-cabin": "小屋(空的)",
     "default-category.duplicate": "{{locationName}} #{{number}}",
 
-    // edit-chest labels
+    // 编辑宝箱标签
     "label.location": "位置",
-    "label.location.tile": "地格 {{x}}, {{y}}",
+    "label.location.tile": "坐标 {{x}}, {{y}}",
     "label.name": "名称",
     "label.category": "分类",
     "label.order": "顺序",
@@ -29,7 +29,7 @@
     "label.automate-take-first": "优先从这个箱子里拿取物品",
     "label.automate-take-disabled": "不要从这个箱子里拿取物品",
 
-    // button labels
+    // 按钮标签
     "button.edit-chest": "编辑箱子",
     "button.sort-inventory": "清单排序",
     "button.save": "保存",
@@ -37,7 +37,7 @@
 
 
     /**********
-    ** Errors
+    ** 错误
     **********/
     "errors.disabled-from-here": "你无法从当前位置访问这个箱子",
     "errors.no-chests": "当前没有可用箱子",
@@ -46,10 +46,10 @@
 
 
     /**********
-    ** Generic Mod Config Menu UI
+    ** 通用模组管理菜单界面
     **********/
     /****
-    ** general options
+    ** 常规选项
     ****/
     "config.title.general-options": "常规选项",
 
@@ -60,15 +60,15 @@
     "config.enable-shipping-bin.desc": "是否能够访问出货箱。",
 
     "config.enable-sprinkler-attachments.name": "启用洒水器附件",
-    "config.enable-sprinkler-attachments.desc": "是否允许使用洒水器附件（如 增益器）。",
+    "config.enable-sprinkler-attachments.desc": "是否允许使用洒水器附件（例如喷头）。",
 
     "config.add-organize-player-items.name": "添加背包整理按钮",
     "config.add-organize-player-items.desc": "始终显示背包整理按钮",
 
     /****
-    ** remote access
+    ** 远程访问
     ****/
-    "config.title.remote-access": "Remote access", // TODO
+    "config.title.remote-access": "远程访问", // 注释
 
     "config.range.name": "箱子显示范围",
     "config.range.desc": "箱子可通过菜单访问的范围。",
@@ -84,23 +84,23 @@
     "config.disable-custom-names.desc": "用于禁用远程访问箱子的位置的内部名称（如调试模式Mod所示）。 你可以用逗号列出多个。",
 
     /****
-    ** open menu hotkey
+    ** 打开菜单快捷键
     ****/
-    "config.title.open-menu-hotkey": "Hotkey to open chest UI", // TODO
+    "config.title.open-menu-hotkey": "打开宝箱界面快捷键", // 注释
 
     "config.toggle-ui-key.name": "切换UI",
     "config.toggle-ui-key.desc": "显示或隐藏箱子UI的按键",
 
-    "config.reopen-last-chest.name": "Reopen last chest", // TODO
-    "config.reopen-last-chest.desc": "When you press the 'toggle UI' button, whether to reopen the last chest you selected yourself during the current game session.", // TODO
+    "config.reopen-last-chest.name": "重新打开最后一个宝箱", // 注释
+    "config.reopen-last-chest.desc": "当玩家按下'toggle UI 切换界面'按钮时, 是否重新打开当前游戏中玩家自己选择的最后一个宝箱.", // 注释
 
-    "config.default-category.name": "Default category", // TODO
-    "config.default-category.desc": "When you press the 'toggle UI' button, show the chests in this category by default (if set). This applies after 'reopen last chest'.", // TODO
+    "config.default-category.name": "默认类别", // 注释
+    "config.default-category.desc": "当玩家按下'toggle UI 切换界面'按钮时, 默认显示这个类别中的宝箱(如果设置).这适用于'reopen last chest 重新打开最后一个宝箱'.", // 注释
 
     /****
-    ** controls when chest UI is open
+    ** 箱子界面打开时控制设置
     ****/
-    "config.title.menu-controls": "箱子UI打开时控制设置",
+    "config.title.menu-controls": "箱子界面打开时控制设置",
 
     "config.edit-chest.name": "编辑箱子",
     "config.edit-chest.desc": "编辑当前箱子选项的按键。",
